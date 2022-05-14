@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header .logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+header .menu {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header .menu-line {
+    height: 3px;
+    background-color: rgb(252, 250, 250);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.container .leftside {
+    flex: 1;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container .rightside {
+    flex: 1;
+    background-image: url(../imagens/homem.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.container .info {
+    color: white;
+}
+
+.container .info .profession {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.container .info .name {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.container .info .buttons a {
+    display: inline-block;
+    background-color: rgb(204, 200, 200);
+    color: rgb(14, 13, 13);
+    padding: 20px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px rgb(29, 27, 27);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.container .info .buttons a.light {
+    color: rgb(204, 200, 200);
+    background-color: rgb(14, 13, 13);
+
+}
+
+.container .info .buttons a:hover {
+    opacity: 0.8;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+footer a {
+    color: rgb(166, 167, 168);
+}
