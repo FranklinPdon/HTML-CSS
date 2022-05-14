@@ -1,0 +1,21 @@
+body {
+    margin: 20px;
+    background-color: rgb(20, 20, 20);
+}
+
+header .botaovoltar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(176, 177, 179);
+    font-weight: bold;
+    padding: 40px;
+}
+
+.texto {
+    color: rgb(209, 205, 205);
+    padding: 10px;
+}
